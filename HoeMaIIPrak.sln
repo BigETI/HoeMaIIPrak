@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26403.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoemaIIPrak_1_1", "HoemaIIPrak_1_1\HoemaIIPrak_1_1.vcxproj", "{E39E30B9-1404-46C2-9636-262C795CF414}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoeMaIIPrak_1_1", "HoemaIIPrak_1_1\HoemaIIPrak_1_1.vcxproj", "{E39E30B9-1404-46C2-9636-262C795CF414}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoemaIIPrak_1_2", "HoemaIIPrak_1_2\HoemaIIPrak_1_2.vcxproj", "{00BFE9B7-8568-4C03-9B67-1C4DEE876745}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoeMaIIPrak_1_2", "HoemaIIPrak_1_2\HoemaIIPrak_1_2.vcxproj", "{00BFE9B7-8568-4C03-9B67-1C4DEE876745}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoemaIIPrak_1_3", "HoemaIIPrak_1_3\HoemaIIPrak_1_3.vcxproj", "{9372EBAE-216D-4720-A4BD-2A54FE212482}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoeMaIIPrak_1_3", "HoemaIIPrak_1_3\HoemaIIPrak_1_3.vcxproj", "{9372EBAE-216D-4720-A4BD-2A54FE212482}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoeMaIIPrak_2_1", "HoeMaIIPrak_2_1\HoeMaIIPrak_2_1.vcxproj", "{A6705F96-7AB4-494F-BB42-C3155AE34895}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +43,14 @@ Global
 		{9372EBAE-216D-4720-A4BD-2A54FE212482}.Release|x64.Build.0 = Release|x64
 		{9372EBAE-216D-4720-A4BD-2A54FE212482}.Release|x86.ActiveCfg = Release|Win32
 		{9372EBAE-216D-4720-A4BD-2A54FE212482}.Release|x86.Build.0 = Release|Win32
+		{A6705F96-7AB4-494F-BB42-C3155AE34895}.Debug|x64.ActiveCfg = Debug|x64
+		{A6705F96-7AB4-494F-BB42-C3155AE34895}.Debug|x64.Build.0 = Debug|x64
+		{A6705F96-7AB4-494F-BB42-C3155AE34895}.Debug|x86.ActiveCfg = Debug|Win32
+		{A6705F96-7AB4-494F-BB42-C3155AE34895}.Debug|x86.Build.0 = Debug|Win32
+		{A6705F96-7AB4-494F-BB42-C3155AE34895}.Release|x64.ActiveCfg = Release|x64
+		{A6705F96-7AB4-494F-BB42-C3155AE34895}.Release|x64.Build.0 = Release|x64
+		{A6705F96-7AB4-494F-BB42-C3155AE34895}.Release|x86.ActiveCfg = Release|Win32
+		{A6705F96-7AB4-494F-BB42-C3155AE34895}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
