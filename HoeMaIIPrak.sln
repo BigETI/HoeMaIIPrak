@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26403.3
+VisualStudioVersion = 15.0.26403.7
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoeMaIIPrak_1_1", "HoemaIIPrak_1_1\HoemaIIPrak_1_1.vcxproj", "{E39E30B9-1404-46C2-9636-262C795CF414}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoeMaIIPrak_1_3", "HoemaIIPrak_1_3\HoemaIIPrak_1_3.vcxproj", "{9372EBAE-216D-4720-A4BD-2A54FE212482}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoeMaIIPrak_2_1", "HoeMaIIPrak_2_1\HoeMaIIPrak_2_1.vcxproj", "{A6705F96-7AB4-494F-BB42-C3155AE34895}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HoeMaIIPrak_2_2", "HoeMaIIPrak_2_2\HoeMaIIPrak_2_2.vcxproj", "{19514E4E-806D-4C49-9EE0-6161F1314E59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,14 @@ Global
 		{A6705F96-7AB4-494F-BB42-C3155AE34895}.Release|x64.Build.0 = Release|x64
 		{A6705F96-7AB4-494F-BB42-C3155AE34895}.Release|x86.ActiveCfg = Release|Win32
 		{A6705F96-7AB4-494F-BB42-C3155AE34895}.Release|x86.Build.0 = Release|Win32
+		{19514E4E-806D-4C49-9EE0-6161F1314E59}.Debug|x64.ActiveCfg = Debug|x64
+		{19514E4E-806D-4C49-9EE0-6161F1314E59}.Debug|x64.Build.0 = Debug|x64
+		{19514E4E-806D-4C49-9EE0-6161F1314E59}.Debug|x86.ActiveCfg = Debug|Win32
+		{19514E4E-806D-4C49-9EE0-6161F1314E59}.Debug|x86.Build.0 = Debug|Win32
+		{19514E4E-806D-4C49-9EE0-6161F1314E59}.Release|x64.ActiveCfg = Release|x64
+		{19514E4E-806D-4C49-9EE0-6161F1314E59}.Release|x64.Build.0 = Release|x64
+		{19514E4E-806D-4C49-9EE0-6161F1314E59}.Release|x86.ActiveCfg = Release|Win32
+		{19514E4E-806D-4C49-9EE0-6161F1314E59}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

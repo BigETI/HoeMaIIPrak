@@ -1,0 +1,11 @@
+﻿  CMyVektor.cpp
+c:\dev\cpp\hoemaiiprak\hoemaiiprak_2_2\cmyvektor.h(33): error C3646: "jacobi": Unbekannter Überschreibungsspezifizierer
+c:\dev\cpp\hoemaiiprak\hoemaiiprak_2_2\cmyvektor.h(33): error C2059: Syntaxfehler: "("
+c:\dev\cpp\hoemaiiprak\hoemaiiprak_2_2\cmyvektor.h(33): error C2238: Unerwartete(s) Token vor ";"
+c:\dev\cpp\hoemaiiprak\hoemaiiprak_2_2\cmyvektor.cpp(223): error C2039: "jacobi": Ist kein Element von "CMyVektor"
+  c:\dev\cpp\hoemaiiprak\hoemaiiprak_2_2\cmyvektor.h(6): note: Siehe Deklaration von "CMyVektor"
+  CMyMatrix.cpp
+c:\dev\cpp\hoemaiiprak\hoemaiiprak_2_2\cmyvektor.h(33): error C3646: "jacobi": Unbekannter Überschreibungsspezifizierer
+c:\dev\cpp\hoemaiiprak\hoemaiiprak_2_2\cmyvektor.h(33): error C2059: Syntaxfehler: "("
+c:\dev\cpp\hoemaiiprak\hoemaiiprak_2_2\cmyvektor.h(33): error C2238: Unerwartete(s) Token vor ";"
+  Code wird generiert...

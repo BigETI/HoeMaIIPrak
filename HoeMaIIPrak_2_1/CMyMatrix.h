@@ -22,7 +22,7 @@ public:
 	CMyVektor operator * (CMyVektor vect);
 	CMyMatrix operator / (double lambda);
 
-	CMyMatrix inverse();
+	CMyMatrix invers();
 	std::pair<size_t, size_t> getSize();
 };
 

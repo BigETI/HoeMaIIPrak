@@ -78,8 +78,6 @@ CMyMatrix & CMyMatrix::operator/=(double lambda)
 	return (*this);
 }
 
-// TO-DO
-
 CMyMatrix CMyMatrix::operator+(const CMyMatrix & mat)
 {
 	return CMyMatrix(*this) += mat;
@@ -116,14 +114,14 @@ CMyMatrix CMyMatrix::operator/(double lambda)
 	return CMyMatrix(*this) /= lambda;
 }
 
-CMyMatrix CMyMatrix::inverse()
+CMyMatrix CMyMatrix::invers()
 {
 	CMyMatrix ret;
 	std::pair<size_t, size_t> sz(getSize());
 	if ((sz.first == 2) && (sz.second == 2))
 	{
 		double mat[2][2] = { { m[1][1], -m[1][0] },{ -m[0][1], m[0][0] } };
-		ret = CMyMatrix(reinterpret_cast<double **>(mat), 2, 2) *= 1 / ((m[0][0] * m[1][1]) - (m[1][0] * m[0][1]));
+		ret = CMyMatrix(reinterpret_cast<double **>(mat), 2, 2) *= 1.0 / ((m[0][0] * m[1][1]) - (m[1][0] * m[0][1]));
 	}
 	else
 		throw std::out_of_range("Matrix isn't 2x2, instead " + std::to_string(sz.first) + "x" + std::to_string(sz.second) + "!");
