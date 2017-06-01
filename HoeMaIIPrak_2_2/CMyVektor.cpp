@@ -220,17 +220,20 @@ std::string CMyVektor::toString()
 	return ret;
 }
 
-CMyMatrix CMyVektor::jacobi(CMyVektor(*funktion)(CMyVektor x))
+CMyMatrix CMyVektor::jacobi(CMyVektor (*funktion)(CMyVektor x))
 {
 	CMyVektor r(funktion(*this)), vh(*this);
 	size_t xsz(getSize()), ysz(r.getSize());
 	CMyMatrix ret(xsz, ysz);
+	double f;
 	for (size_t i(0U), j; i != ysz; i++)
 	{
-
+		f = r[i];
 		for (j = 0U; j != xsz; j++)
 		{
-			// To-Do
+			vh[j] += H;
+			ret[j][i] = (funktion(vh)[i] - f) / H;
+			vh[j] = (*this)[j];
 		}
 	}
 	return ret;
