@@ -40,7 +40,6 @@ int main(int argc, char *argv[])
 			s *= 10;
 		std::cout << "Abweichung bei Euler bei " << s << " Schritten: " << (solver.euler(1.0, 2.0, s, y)[0] - 0.5) << "\r\nAbweichung bei Heun bei " << s << " Schritten: " << (solver.heun(1.0, 2.0, s, y)[0] - 0.5);
 	}
-
 	getchar();
 	return 0;
 }
