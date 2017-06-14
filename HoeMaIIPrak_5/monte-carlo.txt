@@ -1,0 +1,4 @@
+Monte-Carlo-Simulation mit 100000 Ziehungen in einer Ziehung 3 identisch Wahrscheinlichkeit: 1%
+Monte-Carlo-Simulation mit 1000000 Ziehungen in einer Ziehung 3 identisch Wahrscheinlichkeit: 1%
+Monte-Carlo-Simulation mit 100000 Ziehungen in 2 Ziehungen 3 identisch Wahrscheinlichkeit: 1%
+Monte-Carlo-Simulation mit 1000000 Ziehungen in 2 Ziehungen 3 identisch Wahrscheinlichkeit: 1%

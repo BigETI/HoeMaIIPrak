@@ -1,7 +1,7 @@
 #ifndef __C_DGLSOLVER_H__
 #	define __C_DGLSOLVER_H__
 #	include "CMyVektor.h"
-//#	define C_DGLSOLVER_VERBOSE
+#	define C_DGLSOLVER_VERBOSE
 class C_DGLSolver
 {
 private:
